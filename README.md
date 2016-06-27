@@ -4,6 +4,10 @@ The gpg_key module lets you manage GPG keys with Puppet.
 
 Currently the only provider is to import RPM GPG keys.
 
+NOTE:
+The 0.0.4 release fixes the Facter issue with the removed fact method. 
+Treydock fixed this in his code, I am just releasing it to the Forge.
+
 ## Compatibility
 
 | Puppet Versions   | < 2.6 | 2.6 | 2.7     | 3.x     |
